@@ -38,13 +38,13 @@ def cadrasto():
             host = "localhost",
             user = "postgres",
             password = "5115",
-            port = "5412")
+            port = "5432")
         try:
             nome_da_pessoa = request.form.get('input_id_input')
             senha_da_pessoa = request.form.get('input_senha_pessoa_input')
             email_da_pessoa = request.form.get('email_input_da_pessoa')
             cursor = conexao.cursor()
-            salvar_dadoss = "INSERT INTO ursuario(nome,senha,email) VALUES (%s , %s , %s)"
+            salvar_dadoss = "INSERT INTO usuario(nome,senha,email) VALUES(%s , %s , %s)"
             cursor.execute(salvar_dadoss, (nome_da_pessoa,senha_da_pessoa,email_da_pessoa))
             conexao.commit()
             conexao.close()
@@ -65,7 +65,7 @@ def recuperar_conta():
             host = "localhost",
             user = "postgres",
             password = "5115",
-            port = "5412")
+            port = "5432")
         try:
             email_pessoa = request.form.get('receber_input_email')
             nova_senha = request.form.get('input_nova_senha')
