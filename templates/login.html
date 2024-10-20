@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="static\login.css">
+    </head>
+<body>
+    <div class="principal">
+       <form action='/login' id="login" method="POST">
+        <section class="username_se">
+            <span class="h1_nome"> 
+                <h1>Seu Nome</h1>
+            </span>
+            <span class="input_nomee">
+                <input type="text" id="input_username" name="input_username">
+            </span>
+        </section>
+        <section class="senha_se">
+            <span class="h1_senha">
+                <h1>Sua Senha</h1>
+            </span>
+            <span class="input_senhaa">
+                <input type="password" name="input_senha" id="input_senha">
+            </span>
+        </section>
+        <section class="botoes_login">
+            <span class="btn_submi">
+                <button type="submit" id="btn_submit">Entrar</button>
+            </span>
+        </form>
+            <form action="/criar_conta" id="criar_conta" method="POST">
+                <span class="criar_cont">
+                    <button type="submit" id="criar">Criar conta</button>
+                </span>
+            </form>
+            <form action="/recuperar_conta" id="recuperar_conta" method="POST">
+                <span class="recu_cont">
+                    <button type="submit" id="recuperar">Recuperar</button>
+                </span>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

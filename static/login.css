@@ -1,0 +1,97 @@
+body{
+    background-color: #add8e6;
+}
+.principal{
+    width: 40%;
+    height: 100%;
+    margin-top: 15%;
+    background-color: #993399;
+    border-radius: 25px;
+    margin-left: 30%;
+}
+.username_se{
+    width: 100%;
+    height: 100%;
+}
+.senha_se{
+    width: 100%;
+    height: 100%;
+}
+.h1_nome{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.h1_senha{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_nomee{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_nomee input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.input_senhaa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_senhaa input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.botoes_login{
+    width: 100%;
+    height: 100%;
+}
+.btn_submi {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.btn_submi button{
+    width: 20%;
+    height: 22px;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #add8e6;
+}
+.criar_cont {
+    width: 100%;
+    height: 100%;
+}
+.criar_cont button{
+    width: 20%;
+    height: 22px;
+    margin-left: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #add8e6;
+}
+.recu_cont{
+    width: 100%;
+    height: 100%;
+}
+.recu_cont button {
+    width: 20%;
+    height: 22px;
+    margin-left: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #add8e6;
+}

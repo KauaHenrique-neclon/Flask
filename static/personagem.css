@@ -1,0 +1,52 @@
+body{
+    background-color: #6eb8f5;
+}
+.cabeça {
+    width: 100%;
+    height: 100%;
+    background-color: #64b7cc;
+    display: grid;
+    grid-template-columns: 65% 20%;
+}
+.cabeça-1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin-left: 5%;
+}
+.cabeça-1 button {
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.button_menu {
+    float: left;
+    height: 30px;
+}
+.button_menu:hover{
+    cursor: pointer;
+    color: lightslategray;
+}
+.conteudo {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10rem;
+}
+.persona{
+    width: 20%;
+    height: 21rem;
+    border: 1px solid #000000;
+    background-color: white;
+}
+.persona img{
+    width: 100%;
+    height: 80%;
+}
+.persona h1{
+    text-align: center;
+}

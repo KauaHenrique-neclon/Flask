@@ -1,0 +1,104 @@
+body{
+    background-color: #add8e6;
+}
+.tudo {
+    width: 40%;
+    height: 100%;
+    margin-top: 15%;
+    background-color: #ff0084;
+    border-radius: 25px;
+    margin-left: 30%;
+}
+.h1_recuperar {
+    width: 100%;
+    height: 100%;
+}
+.h1_recuperar h1{
+    width: 30%;
+    font-size: 20px;
+    margin-left: 5%;
+    border-bottom: 2px solid black;
+}
+.nome_pessoa {
+    width: 100%;
+    height: 100%;
+}
+.h1_id_recuperar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_email_recuperar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_email_recuperar input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.senha_nova {
+    width: 100%;
+    height: 100%;
+}
+.h1_nova_senha {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_nova {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_nova input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.btn_submi_recuperar {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.btn_submi_recuperar button{
+    width: 20%;
+    height: 26px;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #add8e6;
+}
+.button_escolher {
+    width: 40%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.btn_criar {
+    width: 100%;
+    height: 100%;
+}
+.btn_criar button {
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #af31af;
+}
+.btn-recuperar {
+    width: 100%;
+    height: 100%;
+}
+.btn-recuperar button {
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ff0084;
+}

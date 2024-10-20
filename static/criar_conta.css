@@ -1,0 +1,100 @@
+body{
+    background-color: #add8e6;
+}
+.tudo {
+    width: 40%;
+    height: 100%;
+    margin-top: 10%;
+    background-color: #993399;
+    border-radius: 25px;
+    margin-left: 28%;
+}
+.h1_criar {
+    width: 100%;
+    height: 100%;
+}
+.h1_criar h1{
+    width: 25%;
+    font-size: 20px;
+    margin-left: 5%;
+    border-bottom: 2px solid black;
+}
+.id_pessoa {
+    width: 100%;
+    height: 100%;
+}
+.h1_id_pessoa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_id_pessoa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_id_pessoa input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.email_pessoa_cria{
+    width: 100%;
+    height: 100%;
+}
+.h1_email_pessoa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_email_cria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_email_cria input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.senha_pessoa {
+    width: 100%;
+    height: 100%;
+}
+.h1_senha_pessoa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_senha_pessoa {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_senha_pessoa input{
+    width: 40%;
+    height: 22px;
+    border: 1px;
+    border-radius: 10px;
+}
+.btn_submi_criar {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.btn_submi_criar button {
+    width: 20%;
+    height: 26px;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #add8e6;
+}
